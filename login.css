@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/corona5.jpg);
+}
+main{
+    width: 40%;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightgray;
+}
+.form-group{ margin: 20px; }
+input{ height: 30px; width: 100%; padding: 5px; }
+button{ 
+    background: dodgerblue; 
+    color: #fff; 
+    padding: 10px; 
+    border: solid 1px black;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px !important;
+
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+

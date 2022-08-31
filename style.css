@@ -1,0 +1,243 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left,.right{
+    font-size: 100px;
+    opacity: 0.4;
+    cursor: pointer;
+    color: #F00A3c;
+}
+.left:hover, .right:hover{
+    opacity: 1;
+}
+#slider{
+    background-color: lightgrey;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+#slider-img{
+    width: 100%;
+    height: 100%;
+    position: absolute ;
+}
+#toleft{
+    position: absolute;
+    top: 45%;
+    left: 10px;
+}
+#toright{
+    position: absolute;
+    top: 45%;
+    right: 10px;
+}
+
+/* 
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#333;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 70px;
+}
+#navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+} */
+
+li a {
+    color: white !important;
+    padding:  20px !important;
+    text-decoration: none;
+    font-size: 20px !important;
+    text-align: center ;
+    
+   
+}
+
+.brand{
+    color: white !important;
+}
+
+li a:hover{
+    background-color: #F00A3c;
+}
+.navbar-nav{
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+}
+
+
+#introduction{
+    text-align: center;
+    margin : 50px auto ;
+    width: 80%;
+}
+#introduction h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#introduction p {
+    text-align: justify;
+    line-height: 30px;
+    font-size: larger;
+}
+#symptoms{
+    text-align: center;
+    margin : 50px auto ;
+    width: 80%;
+}
+#symptoms h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#symptoms p {
+    text-align: justify;
+    margin-bottom: 50px;
+    line-height: 30px;
+    font-size: larger;
+}
+#symptoms-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    justify-items: center;
+    row-gap: 30px;
+    margin-bottom: 100px;
+}
+@media (max-width: 800px){
+    #symptoms-card{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+        row-gap: 30px;
+    }
+}
+#protection{
+    text-align: center;
+    margin : 50px auto ;
+    width: 80%;
+}
+#protection h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+#protection p {
+    text-align: justify;
+    margin-bottom: 50px;
+    line-height: 30px;
+    font-size: larger;
+}
+
+#protection-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    justify-items: center;
+    row-gap: 30px;
+}
+@media (max-width: 800px){
+    #protection-card{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+        row-gap: 30px;
+    }
+}
+#vaccin{
+    text-align: center;
+    margin : 50px auto ;
+    width: 80%;
+}
+#vaccin h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+#vaccin p {
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    line-height: 30px;
+}
+footer{
+    background-color: #F00A3c;
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+footer h1 {
+    font-size: 40px ;
+}
+.socialmedia{
+    display: inline-block;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.socialmedia i {
+    font-size: 30px;
+    cursor: pointer;
+    margin: 20px;
+}
+.formcontainer{
+width: 60%;
+background-color: aquamarine;
+padding: 20px;
+border-radius: 20px;
+}
+#register{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#register h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.form-group{ margin:20px; }
+input{ height: 30px; width: 100%; padding: 5px; }
+form button{ 
+    background: dodgerblue; 
+    color: #fff; 
+    padding: 10px; 
+    border: solid 1px dodgerblue;
+    cursor: pointer;
+    width: 150px;
+}
+select{
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table, th, tr ,td {
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+    text-align: center;
+  }
+  #person-registred {
+    text-align: center;
+  }
+  #person-registred h2 {
+    margin-bottom: 50px ;
+  }
